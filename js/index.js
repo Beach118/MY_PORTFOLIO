@@ -30,3 +30,12 @@ $(".resumebutton").hover(function(){
   $(".resumebutton").mouseleave(function(){ 
     $ (this).css("color","white")
 });
+
+$(".imagework1").hover(function(){
+    $ (this).css("","",)
+   
+});
+$(".menuitems").mouseleave(function(){ 
+    $ (this).css("color","#333333")
+});
+
