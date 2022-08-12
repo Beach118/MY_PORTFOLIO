@@ -516,3 +516,69 @@ p{
 }
 
 /* */
+
+
+/* UWH */ 
+
+.container header{
+    display:inline-block;
+    }
+    
+    .container-fluid.herobg{ 
+        background-color:#b5c5c2;
+    }
+    
+    .jumbotron{
+        background-color:#005899 ;
+        color:white;
+    }
+    .h2-intro{
+        color:white;
+        font-weight: lighter;
+    }
+    .p-intro{
+        color:white;
+        font-weight: lighter;
+    }
+    .problem-image{
+        max-width: 345px; 
+        height: auto;
+    }
+    .outcome-image{
+        max-width: 400px; 
+        height: auto;
+    
+    }
+    .numbers{
+        max-width:100px;
+        height: auto;
+        padding-right: 20px;
+    }
+    
+    .btn btn-link {
+        max-width:600px;
+        display: inline;
+    }
+    
+    .step{
+        max-width:100px;
+        height: auto;
+    }
+    
+    .h3-follow{
+        justify-items: center;
+        align-items: center;
+        text-decoration: underline solid 10px #41B6EB;
+    }
+    
+    .img-col4{
+        max-width:350px ;
+    }
+    .img-col6{
+        max-width:560px ;
+    
+    }
+    .card-header{
+        background-color: white;
+    }
+    /* */
