@@ -17,9 +17,10 @@ body {
     justify-items: left;
     justify-content: flex-start;
     margin-left: 30px;
-    max-width: 150px;
+    max-width: 120px;
     height: auto;
     flex-grow: 1;
+    padding-top: 10px;
 
 }
 
@@ -47,6 +48,11 @@ body {
     font-weight: lighter;
 
 }
+
+.container{
+    padding-top: 40px;
+}
+
 /* 
 .menuitems:hover {
     
@@ -326,7 +332,12 @@ body {
     width: 200px;
 }
 
-.viewallbutton{
+#view-all{
+    justify-content: center;
+    align-items: center;
+}
+
+.view-all-button{
     background-color: transparent;
     border: #356353 solid 3px;
     color:#356353;
@@ -520,6 +531,12 @@ p{
 
 /* UWH */ 
 
+.nav-link{
+    color:#333333;
+    font-size: 24px;
+    display:inline;
+}
+
 .container header{
     display:inline-block;
     }
@@ -531,11 +548,30 @@ p{
     .jumbotron{
         background-color:#005899 ;
         color:white;
+        padding: 10px;
     }
     .h2-intro{
         color:white;
         font-weight: lighter;
+
     }
+    h2 {
+        margin-bottom: 1.5rem;
+    }
+
+    .h3-case-study{
+        color: white;
+        font-weight: lighter;
+    }
+
+    h4{
+        padding-top: 10px;  
+    }
+
+    h5{
+        margin-top: 1rem;
+    }
+
     .p-intro{
         color:white;
         font-weight: lighter;
@@ -553,6 +589,11 @@ p{
         max-width:100px;
         height: auto;
         padding-right: 20px;
+    }
+
+    .p-overview-number{
+        padding-right: 40px;
+
     }
     
     .btn btn-link {
@@ -577,6 +618,10 @@ p{
     .img-col6{
         max-width:560px ;
     
+    }
+    .img-col6-full{
+        max-width:560px ;
+        padding-top: 30px;
     }
     .card-header{
         background-color: white;
