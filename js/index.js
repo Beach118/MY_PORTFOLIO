@@ -1,5 +1,7 @@
 console.log ("your index.js is uploaded correctly");
 
+$('.collapse').collapse()
+
 $(".menuitems").hover(function(){
     $ (this).css("color","#356353",)
    
@@ -16,18 +18,18 @@ $(".menuitems").mouseleave(function(){
 });
 
 
-$(".resumebutton").hover(function(){
+$(".primary-green-button").hover(function(){
     $(this).css("background-color","white");
   });
 
-  $(".resumebutton").mouseleave(function(){ 
+  $(".primary-green-button").mouseleave(function(){ 
     $ (this).css("background-color","#356353")
 });
-$(".resumebutton").hover(function(){
+$(".primary-green-button").hover(function(){
     $(this).css("color","#356353");
   });
 
-  $(".resumebutton").mouseleave(function(){ 
+  $(".primary-green-button").mouseleave(function(){ 
     $ (this).css("color","white")
 });
 

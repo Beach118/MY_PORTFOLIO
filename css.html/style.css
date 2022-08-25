@@ -49,66 +49,57 @@ body {
 
 }
 
-.container{
+.con-padding{
     padding-top: 40px;
 }
 
-/* 
+
 .menuitems:hover {
     
     color:#356353;
     text-decoration-line: underline;
   }
-  */
 
-#topsectiongrid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-
-}
-
-#leftimage {
-    flex-grow: 1;
-    max-width: 30%;
   
 
+.hp-hero{
+    background-image: url("Path-hero.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position:right; 
+    background-size:contain; 
 }
+
+
+
 .profileimage {
-    max-width: 560px;
-    max-height: 445px;
+    max-width: 430px;
+    max-height: auto;
 
 }
 
-#pright {
-    flex-grow: 1;
-    background-color: #356353;
-    color: white;
-    max-width: 70%;
-    max-height: 800px;
-  
-
-}
 
 .h1homebio {
-    color: white;
-    margin-top: 50px;
-    margin-left: 30px;
+    color:#333333;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 32px;
-    font-weight: lighter;
+    font-weight: bolder;
 }
 
 .shortbio {
-    margin-left: 30px;
-    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    color:#333333;
     align-items: right;
     justify-items: right;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: lighter;
-    flex-grow:1;
-    max-width: 90%;
     flex-wrap: wrap;
 }
+
+
 
 .resumebutton {
     background-color: transparent;
@@ -124,112 +115,37 @@ body {
 
 }
 
-/* New Hero Space */
 
-#topsectiongrid2 {
-    display: grid;
-    grid-template-areas:
-    "leftimage2 trianglecta";
-    grid-template-columns: 60% 40%;
-    grid-template-rows:100% ;
-    background-color: #b5c5c2;
-
-}
-#leftimage2{
-    grid-area: leftimage2;
-}
-#triangle{
-    grid-area: trianglecta;
-}
-
-#leftimage2 {
-    align-items: flex-start;
-    justify-content:left;
-    max-width: 25%;
-    padding-left: 150px;
-
-  
-
-}
-.profileimage2 {
-    justify-content:left;
-    align-items: flex-start;
-    max-width: 500px;
-    max-height: 400px;
-
-
-}
-
-
-.h1homebio2 {
+.h2-resume{
     color:#333333;
-    padding-top: 30px;
-    margin-top: 20px;
-    margin-left: 150px;
-    font-size: 32px;
-    font-weight: lighter;
-}
-
-
-#triaglecta{
-    max-width:600px;
- justify-content: right;
- align-items:right;
- align-content: right;
-}
-.hometriagle{
-    z-index:0;
-    max-width:600px;
- justify-content: right;
- align-items:right;
- align-content: right;
-}
-
-
-#pright2 {
-    background-color: #356353;
-    color: white;
-    max-width: 530px;
-    max-height: 165px;
-    display: inline-block;
-}
-
-.shortbio2 {
-    background-color: #356353;
-    background-size: 550px;
-    margin-left: 10px;
-    color: white;
-    align-items: right;
-    justify-items: right;
+    margin-top: 30px;
+    margin-left: 20px;
     font-size: 28px;
     font-weight: lighter;
-    flex-grow:1;
-    width: 500px;
-    flex-wrap: wrap;
-}
-.ctaresume{
-    color:#333333;
-    padding-top: 30px;
-    margin-top: 100px;
-    margin-left: 50px;
-    font-size: 28px;
-    font-weight: lighter;
+    border-radius: 30px;
     
 }
 
-.downloadbutton {
-    background-color:#356353;
+.primary-button {
+    background-color:#AA6A32;
     color: white;
+    border: none;
     align-content: flex-end;
     align-items: right;
     font-size: 22px;
-    margin-top: 5%;
-    margin-left: 60%;
+    margin-top: 10px;
+    margin-left: 20px;
     padding: 15px;
     width: 200px;
+    border-radius: 30px;
 
 }
-/* End New Hero Space */ 
+
+.hp-hero{
+margin-bottom: 80px;
+
+}
+
 
 /* Work Section */ 
 
@@ -299,7 +215,7 @@ body {
 
 }
 
-.learnmorebutton{
+.primary-green-button{
     background-color:#356353;
     color: white;
     border: none;
@@ -310,7 +226,7 @@ body {
 
 }
 
-.learnmorebutton:hover{
+.primary-green-button:hover{
     background-color:white;
     color:#356353;
     border:3px solid;
@@ -322,7 +238,7 @@ body {
 
 }
 
-.learnmorebutton:active{
+.primary-green-button:active{
     background-color: #94b67c;
     color:white;
     border: none;
@@ -349,9 +265,18 @@ body {
     text-align: center;
 
 }
-#viewall{
+.secondary-button{
+    background-color: transparent;
+    border: #333333 solid 3px;
+    color:#333333;
+    font-size: 22px;
+    margin-top:20px;
+    margin-bottom:40px;
+    padding: 10px;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    width: 200px;
+
 }
 
 /* End Work Section */ 
@@ -364,34 +289,27 @@ body {
 
 /* My Skills Page */ 
 
-#topsectionskillsgrid{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
 
-#skillshero{
-    flex-grow: 1;
-    max-width: 40%;
+.skillsbg{
+    background-color: #356353;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .teamimage {
-    width: 100%;
-    object-fit: cover;
-    max-height: 300px;
+max-width: 600px;
+height: auto;
 
 }
 
-#pskillshero{
-    flex-grow: 1;
+
+.hskill{
+    padding-left: 20px;
+    padding-top: 100px;
     background-color: #356353;
     color: white;
-    width: 60%;
-    height: 300px;
-  
-
 }
-
 
 h1 {
     color:#333333;
@@ -406,42 +324,14 @@ h3{
 
 }
 
-.flexContainer{
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
-    flex-direction: row;
 
+
+.skillimage{
+    max-width: 250px;
+    height: auto;
 }
 
 
-.skill1{ 
-  width: 33%;
-  padding:20px;
-
-
-}
-.skill1image{
-    width: 50%;
-    height: 150px;
-}
-
-.skill2{
-    width: 33%;
-    padding:20px;
-}
-.skill2image{
-    width: 50%;
-    height: 150px;
-}
-
-.skill3{
-    width: 33%;
-    padding:20px;
-}
-.skill3image{
-    width: 50%;
-    height: 150px;
-}
 
 
 /* End Skills Page */
@@ -545,7 +435,7 @@ p{
         background-color:#b5c5c2;
     }
     
-    .jumbotron{
+    .uwh{
         background-color:#005899 ;
         color:white;
         padding: 10px;
@@ -627,3 +517,7 @@ p{
         background-color: white;
     }
     /* */
+
+    .contact-bea{
+        max-width: 800px;
+    }
