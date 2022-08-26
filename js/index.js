@@ -3,7 +3,7 @@ console.log ("your index.js is uploaded correctly");
 $('.collapse').collapse()
 
 $(".menuitems").hover(function(){
-    $ (this).css("color","#356353",)
+    $ (this).css("color","#333333",)
    
 });
 $(".menuitems").mouseleave(function(){ 

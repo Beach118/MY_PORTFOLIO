@@ -66,7 +66,6 @@ body {
   
 
 .hp-hero{
-    background-image: url("Path-hero.png");
     background-color: transparent;
     background-repeat: no-repeat;
     height: 600px;
@@ -83,7 +82,7 @@ body {
 }
 
 
-.h1homebio {
+.h1-homebio {
     color:#333333;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -149,8 +148,25 @@ margin-bottom: 80px;
 
 }
 
+.case{
+    background-color: #F5F6FA;
+    height: 100px;
+    margin-bottom: 60px;
+}
+.h1-case{
+    padding-top: 20px;
+    color:#333333;
+}
+
 
 /* Work Section */ 
+
+.row{
+    margin-bottom: 60px;
+}
+.card{
+    border: none;
+}
 
 #workGridHomepage
 {
@@ -251,21 +267,24 @@ margin-bottom: 80px;
     width: 200px;
 }
 
-#view-all{
+.view-all{
+    text-align: center;
     justify-content: center;
     align-items: center;
+    margin-bottom: 140px;
 }
 
 .view-all-button{
-    background-color: transparent;
-    border: #356353 solid 3px;
-    color:#356353;
+    background-color: #333333;
+    border: #333333 solid 3px;
+    color:white;
     font-size: 22px;
     margin-top: 5%;
     padding: 15px;
     width: 600px;
     justify-content: center;
     text-align: center;
+    border-radius: 30px;
 
 }
 .secondary-button{
@@ -295,7 +314,7 @@ margin-bottom: 80px;
 
 
 .skillsbg{
-    background-color: #356353;
+    background-color: #333333;
     padding-bottom: 2rem;
     padding-top: 2rem;
     flex-wrap: wrap;
@@ -311,13 +330,12 @@ height: auto;
 .hskill{
     padding-left: 20px;
     padding-top: 100px;
-    background-color: #356353;
+    background-color: #333333;
     color: white;
 }
 
 h1 {
     color:#333333;
-    margin-left: 30px;
     font-size: 32px;
     font-weight: lighter;
 }
@@ -349,7 +367,7 @@ h4{
 }
 
 .h5connect{
-    color: white;
+    color:#333333;
     font-family: 'Petit Formal Script', cursive;
     font-size: 28px;
     margin-left: 30px;
@@ -358,7 +376,7 @@ h4{
 }
 
 .h6connect {
-    color: white;
+    color:#333333;
     font-family: 'Montserrat', sans-serif;
     margin-left: 30px;
     font-size: 18px;
@@ -374,7 +392,6 @@ p{
 
 #footergrid {
     display: flex;
-    background-color: #356353;
 
 }
 
@@ -391,9 +408,9 @@ p{
 .footermenuitems {
 
     display: inline-block;
-    color: white;
-    font-family: Montserrat, sans-serif;
-    font-size: 24px;
+    color: #333333;
+    font-size: 18px;
+    text-transform: uppercase;
     align-items: left;
     justify-items: left;
     justify-content: space-between;
@@ -427,8 +444,9 @@ p{
 
 .nav-link{
     color:#333333;
-    font-size: 24px;
+    font-size: 18px;
     display:inline;
+    text-transform: uppercase;
 }
 
 .container header{
