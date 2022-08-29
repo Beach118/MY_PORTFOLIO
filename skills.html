@@ -8,31 +8,32 @@
 </head>
 
 <body>
-    <header id="headergrid">
-
-        <a href="index.html"><img id="logo" src="images/B-logo.png"></a>
-
-        <div id="navmenu">
-            <ul class="rightalignnavigation">
-                <a href="/aboutme.html">
-                    <li class="menuitems">About</li>
-                </a>
-                <a href="/skills.html">
-                    <li class="menuitems">Skills</li>
-                </a>
-                <a href="mywork.html">
-                    <li class="menuitems">Work</li>
-                </a>
-                <a href="/contact.html">
-                    <li class="menuitems">Contact</li>
-                </a>
-            </ul>
-        </div>
-    </header>
+    <div class="container">
+        <header id="headergrid">
+            <a href="index.html"><img id="logo" src="images/B-logo.png"></a>
+            <div id="navmenu">
+                <ul class="rightalignnavigation">
+                    <a href="/aboutme.html">
+                        <li class="menuitems">About</li>
+                    </a>
+                    <a href="/skills.html">
+                        <li class="menuitems">Skills</li>
+                    </a>
+                    <a href="mywork.html">
+                        <li class="menuitems">Work</li>
+                    </a>
+                    <a href="/contact.html">
+                        <li class="menuitems">Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </header>
+    </div>
     <!--  My UX Skills section coded using CSS flex -->
 
-    <div class="jumbotron jumbotron-fluid skillsbg">
-        <div class="container">
+    <div class="jumbotron jumbotron-fluid skillsbg top-con">
+        <div class="container hero-container">
+            <h1 class="h1-homebio">MY UX/UI SKILLS</h1>
             <div class="row">
                 <div class="col-6">
                 <img class="teamimage img-fluid" src="images/team-work-bw.jpg">
@@ -43,18 +44,17 @@
             </div>
             </div>
         </div>
-      </div>
+   
  
 
         <div class="container con-padding">
-            <h1>My UX/UI Skills</h1>
             <div class="row">
                 <div class="col-lg-4">
                     <img class="skillimage" src="images/user-research.png">
                 </div>
                 <div class="col-lg-8">
                     <h3>User Research</h3>
-                    <p> Gain an empathic understanding of the users through interviews and usability tests. This
+                    <p> Gaining an empathic understanding of the users through interviews and usability testing. This
                         consits on creating a proto persona, running surveys, formulating interview questions, and
                         conducting stakeholders and users interviews and tests. The main goal is to identify the users’
                         behavioral demographics, the traits or life experiences that influence their technology habits,
@@ -68,11 +68,11 @@
                 </div>
                 <div class="col-lg-8">
                     <h3>Problem Solving</h3>
-                    <p> Generate ideas and brainstorm solutions to target our users' needs and painpoints gathered
+                    <p> Generating ideas, and challenging and validating solutions to target the users' needs and painpoints gathered
                         through the user research. During this process we analyze the websites or interfaces for
                         their use of design principles and heuristics. Common trends are identified using an affinity
-                        diagram and organized into a prioritization matrix of the users' wants and needs to know where
-                        to focus our efforts. We then move to card sorting and creating an inspiration board and a style
+                        diagram and sorted into a prioritization matrix of the users' and stakeholders' wants and needs to know where
+                        to focus our efforts. We then move into card sorting and creating an inspiration board and a style
                         guide that will direct our redesign.
                     </p>
                 </div>
@@ -83,47 +83,38 @@
                 </div>
                 <div class="col-lg-8">
                     <h3>User Interface Design</h3>
-                    <p> Execute the design solution from paper sketches to low-fidelity wireframe to high-fidelity
-                        prototype applying UX/UI best practices. We conduct multiple rounds of usability tests during
-                        the all the design phases, from wireframes to high-fidelity prototypes and interate on the
-                        design based on the testing feedback. After the design has been solidified, we apply the HTML,
-                        CSS, JQuery and JavaScript code and publish the interface. </p>
+                    <p> Executing the design solution from paper sketches to low-fidelity wireframes to high-fidelity
+                        prototypes applying UX/UI best practices. We conduct multiple rounds of usability testings during
+                        the all the design phases, from wireframes to high-fidelity prototypes, and interate on the
+                        design based on the testing feedback until they are at a place where they represent what the end product may look like. After the design has been tested and solidified, we move into the developing phase and apply the HTML,
+                        CSS, JQuery, JavaScript, Boostrap, and other necessary code in order publish the interface. </p>
                 </div>
             </div>
 
         </div>
 
 
-    <footer id="footergrid">
-
-        <div id="footernavmenu">
-
-            <ul>
-                <a href="/aboutme.html">
-                    <li class="footermenuitems">About</li>
-                </a>
-                <a href="/skills.html">
-                    <li class="footermenuitems">Skills</li>
-                </a>
-                <a href="mywork.html">
-                    <li class="footermenuitems">Work</li>
-                </a>
-                <a href="/contact.html">
-                    <li class="footermenuitems">Contact</li>
-                </a>
-            </ul>
-        </div>
-        <div id="socialicons">
-            <h5 class="h5connect">Let's connect! </h5>
-            <h6 class="h6connect">beaharnois@me.com</h6>
-
-            <ul>
-                <li class="socialitems"><img src="images/fb-dark.png"></li>
-                <li class="socialitems"><img src="images/insta-dark.png"></li>
-                <li class="socialitems"><img src="images/LinkedIn-dark.png"></li>
-            </ul>
-        </div>
-    </footer>
+        <div class="container">
+            <nav class="navbar justify-content-end">
+              <a class="navbar" href="#">
+                <img src="images/Top.png" alt="">
+              </a>
+            </nav>
+            <nav class="navbar">
+              <nav class="navbar-brand">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Skills</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Work</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              </nav>
+              <nav class="navbar justify-content-end">
+                <h6 class="h6connect">EMAIL: BEAHARNOIS@ME.COM</h6>
+                <a class="nav-link" href="#"><img src="images/fb.png"></a>
+                <a class="nav-link" href="#"><img src="images/insta.png"></a>
+                <a class="nav-link" href="#"><img src="images/LinkedIn.png"></a>
+              </nav>
+            </nav>
+          </div>
 </body>
 
 </html>
