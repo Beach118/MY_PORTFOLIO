@@ -19,7 +19,7 @@ body {
     justify-items: left;
     justify-content: flex-start;
     margin-left: 30px;
-    max-width: 100px;
+    max-width: 70px;
     height: auto;
     flex-grow: 1;
     padding-top: 10px;
@@ -149,7 +149,7 @@ margin-bottom: 80px;
 
 }
 
-.case{
+.case-bar{
     background-color: #F5F6FA;
     height: 100px;
     margin-bottom: 60px;
@@ -157,6 +157,10 @@ margin-bottom: 80px;
 .h1-case{
     padding-top: 20px;
     color:#333333;
+
+}
+.p-bar{
+    margin-bottom: 20px;
 }
 
 
@@ -542,4 +546,45 @@ p{
 
     .contact-bea{
         max-width: 800px;
+    }
+
+    .about-img-1{
+        max-width: 390px;
+        max-height: 508px;
+        margin: 20px;
+        padding: 20px;
+    }
+    .about-img-2{
+        max-width: 400px;
+        max-height: 508px;
+        margin: 20px;
+        padding: 20px;
+    }
+    .about-img-3{
+        max-width: 390px;
+        max-height: 508px;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .about-img-4{
+        max-width: 400px;
+        max-height: 500px;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .about-img-5{
+        max-width: 390px;
+        max-height: 500px;
+        margin: 20px;
+        padding: 20px;
+    }
+
+
+    .about-img-6{
+        max-width:400px;
+        max-height: 500px;
+        margin: 20px;
+        padding: 20px;
     }
