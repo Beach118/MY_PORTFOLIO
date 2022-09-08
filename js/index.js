@@ -18,18 +18,18 @@ $(".menuitems").mouseleave(function(){
 });
 
 
-$(".primary-green-button").hover(function(){
+$(".primary-button").hover(function(){
     $(this).css("background-color","white");
   });
 
-  $(".primary-green-button").mouseleave(function(){ 
-    $ (this).css("background-color","#356353")
+  $(".primary-button").mouseleave(function(){ 
+    $ (this).css("background-color","#AA6A32")
 });
-$(".primary-green-button").hover(function(){
-    $(this).css("color","#356353");
+$(".primary-button").hover(function(){
+    $(this).css("color","#AA6A32");
   });
 
-  $(".primary-green-button").mouseleave(function(){ 
+  $(".primary-button").mouseleave(function(){ 
     $ (this).css("color","white")
 });
 

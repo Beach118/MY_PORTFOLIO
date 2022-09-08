@@ -62,8 +62,13 @@ body {
 
 .menuitems:hover {
     
-    color:#356353;
-    text-decoration-line: underline;
+    color:#AA6A32;
+    text-decoration: underline solid 3px #AA6A32;
+  }
+
+  .nav-link:hover {
+    color:#AA6A32;
+    text-decoration: underline solid 3px #AA6A32;
   }
 
   
@@ -250,15 +255,17 @@ margin-bottom: 80px;
 
 }
 
-.primary-green-button:hover{
+.primary-button:hover{
     background-color:white;
-    color:#356353;
+    color:#AA6A32;
     border:3px solid;
-    border-color: #356353;
+    border-color: #AA6A32;
     font-size: 22px;
-    margin-top: 5%;
-    padding: 12px;
-    width: 203px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 30px;
 
 }
 
@@ -270,6 +277,38 @@ margin-bottom: 80px;
     margin-top: 5%;
     padding: 15px;
     width: 200px;
+}
+
+
+.secondary-button{
+    background-color: transparent;
+    border: #333333 solid 3px;
+    color:#333333;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-top:20px;
+    margin-bottom:40px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+
+}
+
+.secondary-button:hover{
+    background-color: transparent;
+    border: #333333 solid 3px;
+    color:#333333;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-top:20px;
+    margin-bottom:40px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    text-decoration: underline solid 3px #AA6A32;
+
 }
 
 .view-all{
@@ -292,20 +331,22 @@ margin-bottom: 80px;
     border-radius: 30px;
 
 }
-.secondary-button{
-    background-color: transparent;
-    border: #333333 solid 3px;
-    color:#333333;
-    border-radius: 30px;
+
+.view-all-button:hover{
+    background-color: white;
+    border: #AA6A32 solid 3px;
+    color:#AA6A32;
     font-size: 22px;
-    margin-top:20px;
-    margin-bottom:40px;
-    padding: 10px;
+    margin-top: 5%;
+    padding: 15px;
+    width: 600px;
     justify-content: center;
     text-align: center;
-    width: 200px;
+    border-radius: 30px;
 
 }
+
+
 
 /* End Work Section */ 
 
