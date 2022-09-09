@@ -318,6 +318,21 @@ margin-bottom: 80px;
     margin-bottom: 140px;
 }
 
+.center-p{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+
+}
+
+.old{
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+
+}
+
 .view-all-button{
     background-color: #333333;
     border: #333333 solid 3px;
@@ -629,3 +644,9 @@ p{
         margin: 20px;
         padding: 20px;
     }
+
+   .div-bar{
+    background-color:#F5F6FA;
+    margin-top: 40px;
+   }
+  
