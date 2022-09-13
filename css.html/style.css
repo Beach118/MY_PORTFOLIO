@@ -428,7 +428,7 @@ h4{
     color:#333333;
     font-size: 24px;
     font-weight: 200;
-    padding-top: 60px;
+    padding-top: 40px;
     text-transform: uppercase;
 
 }
@@ -543,10 +543,7 @@ p{
         font-weight: lighter;
     }
 
-    h4{
-        padding-top: 10px;  
-    }
-
+    
     h5{
         margin-top: 1rem;
     }
@@ -655,5 +652,10 @@ p{
    .div-bar{
     background-color:#F5F6FA;
     margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+   }
+   .number-ux-phase{
+    max-width: 100px;
    }
   
