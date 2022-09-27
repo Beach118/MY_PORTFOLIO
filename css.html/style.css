@@ -57,8 +57,10 @@ body {
 }
 
 .top-con{
-    margin-top: 60px; 
+    margin-top: 40px; 
 }
+
+
 
 .menuitems:hover {
     
@@ -79,16 +81,15 @@ body {
     height: 600px;
     background-position:right; 
     background-size:contain; 
+    margin-bottom: 80px;
+        
 }
-
-
 
 .profileimage {
     max-width: 430px;
     max-height: auto;
 
 }
-
 
 .h1-homebio {
     color:#333333;
@@ -149,10 +150,6 @@ body {
 
 }
 
-.hp-hero{
-margin-bottom: 80px;
-
-}
 
 .case-bar{
     background-color: #F5F6FA;
@@ -373,8 +370,7 @@ margin-bottom: 80px;
 
 .skillsbg{
     background-color: transparent;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+
     flex-wrap: wrap;
 }
 
@@ -512,7 +508,7 @@ p{
     }
     
     .container-fluid.herobg{ 
-        background-color:#b5c5c2;
+      
     }
     
     .uwh{
@@ -539,9 +535,16 @@ p{
         margin-top: 1rem;
     }
 
+    .hero-intro{
+        margin-bottom: 10px !important;
+    }
     .p-intro{
         color:#333333;
         font-weight: lighter;
+    }
+
+    .intro-img{
+        margin-bottom: 20px
     }
     .problem-image{
         max-width: 345px; 
