@@ -1,5 +1,9 @@
 console.log ("your index.js is uploaded correctly");
 
+
+
+$('.carousel').carousel()
+
 $('.collapse').collapse()
 
 $(".menuitems").hover(function(){
