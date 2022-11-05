@@ -79,8 +79,8 @@ li{
 
 
 .nav-link:hover {
-    color: #AA6A32;
-    text-decoration: underline solid 3px #AA6A32;
+    color: #333333;
+    text-decoration: underline solid 3px #B31F63 ;
 }
 
 
@@ -139,19 +139,6 @@ li{
     border-radius: 30px;
 }
 
-.primary-button {
-    background-color: #AA6A32;
-    color: white;
-    border: none;
-    align-content: flex-end;
-    align-items: right;
-    font-size: 22px;
-    margin-top: 10px;
-    margin-left: 20px;
-    padding: 15px;
-    width: 200px;
-    border-radius: 30px;
-}
 
 
 .case-bar {
@@ -264,11 +251,26 @@ li{
 
 }
 
+
+.primary-button {
+    background-color: #B31F63;
+    color: white;
+    border: none;
+    align-content: flex-end;
+    align-items: right;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 30px;
+}
+
 .primary-button:hover {
     background-color: white;
-    color: #AA6A32;
+    color: #B31F63;
     border: 3px solid;
-    border-color: #AA6A32;
+    border-color: #B31F63;
     font-size: 22px;
     margin-top: 10px;
     margin-left: 20px;
@@ -305,8 +307,8 @@ li{
 
 .secondary-button:hover {
     background-color: transparent;
-    border: #333333 solid 3px;
-    color: #333333;
+    border: #B31F63 solid 3px;
+    color: #B31F63;
     border-radius: 30px;
     font-size: 22px;
     margin-top: 20px;
@@ -315,7 +317,7 @@ li{
     justify-content: center;
     text-align: center;
     width: 200px;
-    text-decoration: underline solid 3px #AA6A32;
+    text-decoration: underline solid 3px #B31F63;
 }
 
 .view-all {
@@ -338,8 +340,8 @@ li{
 
 
 .view-all-button {
-    background-color: #333333;
-    border: #333333 solid 3px;
+    background-color: #B31F63;
+    border: #B31F63 solid 3px;
     color: white;
     font-size: 22px;
     margin-top: 5%;
@@ -353,8 +355,8 @@ li{
 
 .view-all-button:hover {
     background-color: white;
-    border: #AA6A32 solid 3px;
-    color: #AA6A32;
+    border: #B31F63 solid 3px;
+    color: #B31F63;
     font-size: 22px;
     margin-top: 5%;
     padding: 15px;
